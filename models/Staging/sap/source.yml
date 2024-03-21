@@ -1,0 +1,11 @@
+sources:
+  - name: sap
+    description: :Fonte do ERP da Adventures
+    database: equatorial
+    schema: dbt_lilian_cert
+    tables:
+      - name: human_resources
+      - name: person
+      - name: production
+      - name: sales
+
